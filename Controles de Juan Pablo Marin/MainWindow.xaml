@@ -11,15 +11,18 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
 
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" TextAlignment="Center" Text="Diseño de controles" TextAlignment="Center" Foreground="Black" FontSize="24" TextDecorations="Baseline" FontFamily="arial" FontWeight="DemiBold"></TextBlock>
-        <TextBox Grid.Row="1" Grid.Column="1" SpellCheck.IsEnabled="True" x:Name="textBox_con_spellCheck"></TextBox>    
+        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Text="Diseño de controles" TextAlignment="Center" Background="Beige"  Foreground="Black" FontSize="24" TextDecorations="Underline" FontFamily="tahoma" FontWeight="DemiBold"></TextBlock>
+        <TextBox  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="169,15,110,20" SpellCheck.IsEnabled="True" Cursor="Arrow"  x:Name="textBox_con_spellCheck" MaxLines="10" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Auto"  BorderBrush="Black" BorderThickness="1"   Background="BlanchedAlmond" Height="85" Width="500"></TextBox>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Ingresa tu texto" TextAlignment="left" Margin="10,15" VerticalAlignment="Top"  FontSize="20"></TextBlock>
         
         
     </Grid>
