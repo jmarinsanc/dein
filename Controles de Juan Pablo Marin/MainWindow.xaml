@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Controles_de_Juan_Pablo_Marin"
         mc:Ignorable="d"
-        Title="Diseño de controles" Icon="/recursos/icons8-favicon-16.png" Background="Beige" ResizeMode="CanResize" WindowStyle="ThreeDBorderWindow" Height="450" Width="800">
+        Title="Diseño de controles" Icon="/recursos/icons8-favicon-16.png" Background="Beige" ResizeMode="CanResize" WindowStyle="ThreeDBorderWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+        
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
