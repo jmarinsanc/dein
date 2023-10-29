@@ -5,27 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Controles_de_Juan_Pablo_Marin"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Diseño de controles" Icon="/recursos/icons8-favicon-16.png" Background="Beige" ResizeMode="CanResize" WindowStyle="ThreeDBorderWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
-            
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto" MinHeight="41"/>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="52*"/>
+            <RowDefinition Height="219*"/>
 
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Text="Diseño de controles" TextAlignment="Center" Background="Beige"  Foreground="Black" FontSize="24" TextDecorations="Underline" FontFamily="tahoma" FontWeight="DemiBold"></TextBlock>
-        <TextBox  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="169,15,110,20" SpellCheck.IsEnabled="True" Cursor="Arrow"  x:Name="textBox_con_spellCheck" MaxLines="10" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Auto"  BorderBrush="Black" BorderThickness="1"   Background="BlanchedAlmond" Height="85" Width="500"></TextBox>
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Ingresa tu texto" TextAlignment="left" Margin="10,15" VerticalAlignment="Top"  FontSize="20"></TextBlock>
-        
-        
+        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Text="Diseño de controles" TextAlignment="Center" Background="Gray"  Foreground="Black" FontSize="24" TextDecorations="Underline" FontFamily="tahoma" FontWeight="DemiBold"></TextBlock>
+        <TextBox  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="176,21,118,26" SpellCheck.IsEnabled="True" Cursor="Arrow"  x:Name="textBox_con_spellCheck" MaxLines="10" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Auto"  BorderBrush="Black" BorderThickness="1"   Background="Azure"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Ingresa tu texto" TextAlignment="left" Margin="10,15,10,0" VerticalAlignment="Top"  FontSize="20" Height="27"></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="10,10,0,21" TextDecorations="Underline" FontStyle="Italic" FontWeight="DemiBold" FontSize="16" Text="Mis actores favoritos de Sex Education"/>
+        <ComboBox Name="combo"  Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" SelectionChanged="combo_SelectionChanged" BorderThickness="3"  Width="280"  >
+            <ComboBoxItem HorizontalAlignment="Left" Width="250">
+                <StackPanel Orientation="Horizontal" Margin="3" >
+                    <Image Source="/recursos/asa_butter.jpeg" Height="50" Width="35" HorizontalAlignment="Left" />
+                    <TextBlock Text="Asa Butterfield" FontSize="14" FontWeight="Black"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem HorizontalAlignment="Left" Width="250">
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <Image Source="/recursos/emma_mackey.jpeg" Height="50" Width="35" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Emma Mackey" FontSize="14" FontWeight="Black"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem HorizontalAlignment="Left" Width="250">
+                <StackPanel Orientation="Horizontal" Margin="3" >
+                    <Image Source="/recursos/ncuti_gatwa.jpeg" Height="50" Width="35" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Ncuti Gatwa" FontSize="14" FontWeight="Black"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox >
+        <ListBox Name="listBox" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" Background="Beige">
+            <ListBoxItem HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="2ºB DAM - Desarrollo de Interfaces" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="30" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal" >
+                    <TextBlock Text="2ºB Sistemas de Gestión Empresarial (tarde)" FontSize="16" FontWeight="DemiBold" Foreground="Red" />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="20" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="2ºB Programación Multimedia Dispositivos Móviles Tarde" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="40" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="DAM2B - Programación de Servicios y Procesos" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="25" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Inglés DAM 2B" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="15" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Empresa e iniciativa empresarial DAM" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="25" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Desarrollo web 2B DAM" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="25" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="DAM2B - Acceso a datos" FontSize="16" FontWeight="DemiBold"  />
+                    <ProgressBar Background="AliceBlue" Margin="20,0"  Value="5" Maximum="100" Height="20"  Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+        </ListBox>
+
     </Grid>
-    
-    
+
+
 </Window>

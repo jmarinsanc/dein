@@ -94,5 +94,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\icons8-favicon-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\asa_butter.jpeg" />
+    <Resource Include="recursos\emma_mackey.jpeg" />
+    <Resource Include="recursos\ncuti_gatwa.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

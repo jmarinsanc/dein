@@ -24,5 +24,10 @@ namespace Controles_de_Juan_Pablo_Marin
         {
             InitializeComponent();
         }
+
+        private void combo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
