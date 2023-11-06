@@ -1,0 +1,130 @@
+﻿<Window x:Class="formulario_de_juan_pablo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:formulario_de_juan_pablo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1100" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*" />
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Introducción de Datos de Empleados"  TextAlignment="Center" FontSize="20"/>
+        <Grid  Grid.Row="1" Grid.Column="0" Margin="15,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="80*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Nombre*" Grid.Column="0" Name="label_nombre"/>
+            <TextBox x:Name="nombre"  Grid.Column="1"  Height="20"/>
+        </Grid>
+        <Grid  Grid.Row="2" Grid.Column="0" Margin="15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="80*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Apellidos" Grid.Column="0" Name="label_apellidos"/>
+            <TextBox x:Name="box_apellidos"  Grid.Column="1" Height="20" />
+        </Grid>
+        <Grid  Grid.Row="3" Grid.Column="0" Margin="15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="80*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="E-mail*" Grid.Column="0" Name="label_email"/>
+            <TextBox x:Name="box_email"  Grid.Column="1" Height="20" />
+        </Grid>
+        <Grid  Grid.Row="4" Grid.Column="0" Margin="15,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Teléfono*" Grid.Column="0" Name="label_telefono"/>
+            <TextBox x:Name="box_telefono"  Grid.Column="1" Height="20" />
+        </Grid>
+        <Grid  Grid.Row="5" Grid.Column="0" Margin="15,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="65*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Fecha de nacimiento" Grid.Column="0" Name="label_fecha"/>
+            <DatePicker Grid.Column="1" Margin="0,5" Name="fecha_nacimiento"/>
+        </Grid>
+        <Grid  Grid.Row="6" Grid.Column="0" Margin="15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="DNI*" Grid.Column="0" Name="label_dni"/>
+            <TextBox x:Name="box_dni"  Grid.Column="1" Height="20" />
+        </Grid>
+        <Grid  Grid.Row="7" Grid.Column="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Label VerticalAlignment="Center" Content="Adjuntar fotografía" Grid.Column="0" Name="label_foto"/>
+            <Button Grid.Column="1" Margin="10,0" Content="Cargar foto" Height="50" Width="100"  HorizontalAlignment="Left"  Click="SeleccionarImagen_Click" />
+            <Image Grid.Column="2" Name="imagenPrevia" Width="100" Height="100" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid  Grid.Row="8" Grid.Column="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="80*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Domicilio" Grid.Row="0" Grid.Column="0" Name="label_domicilio"/>
+            <TextBox x:Name="box_direccion" Grid.Row="0" Grid.Column="1" Height="20" Text="Dirección"  />
+            <TextBox x:Name="box_ciudad" Grid.Row="1" Grid.Column="1" Height="20" Text="Ciudad" Margin="0,3,0,3" />
+            <TextBox x:Name="box_provincia" Grid.Row="2" Grid.Column="1" Height="20" Text="Provincia" Margin="0,3,0,3"/>
+            <TextBox x:Name="box_codigo" Grid.Row="3" Grid.Column="1" Height="20" Text="Código Postal" Margin="0,3,0,3"/>
+            <TextBox x:Name="box_pais" Grid.Row="4" Grid.Column="1" Height="20" Text="País"  Margin="0,3,0,3"/>
+        </Grid>
+        <Image Source="/recursos/company.jpg" Grid.Column="1" Grid.Row="1" Grid.RowSpan="8" Height="200" Width="200" VerticalAlignment="Bottom"/>
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="9">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="85*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Enlace a red social" Grid.Row="0" Grid.Column="0" Name="label_social"/>
+            <TextBox x:Name="box_redsocial" Margin="0,0,50,0" Grid.Row="0" Grid.Column="1"/>
+        </Grid>
+        
+
+
+    </Grid>
+    
+</Window>
