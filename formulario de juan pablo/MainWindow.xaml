@@ -120,11 +120,21 @@
                 <ColumnDefinition Width="85*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Enlace a red social" Grid.Row="0" Grid.Column="0" Name="label_social"/>
-            <TextBox x:Name="box_redsocial" Margin="0,0,50,0" Grid.Row="0" Grid.Column="1"/>
+            <TextBox x:Name="box_redsocial" Margin="0,0,50,0" Height="20" Grid.Row="0" Grid.Column="1"/>
         </Grid>
-        
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="10">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="42.5*"/>
+                <ColumnDefinition Width="42.5*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Rol actual" Grid.Row="0" Grid.Column="0" Name="label_rol"/>
+            <ComboBox Grid.Column="1" >
+                <ComboBoxItem></ComboBoxItem>
+            </ComboBox>
+        </Grid>
 
 
     </Grid>
-    
+        
 </Window>
