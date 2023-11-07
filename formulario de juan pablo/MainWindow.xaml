@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:formulario_de_juan_pablo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1100" Width="800">
+        Title="MainWindow" Height="1100" Width="800" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50*" />
@@ -39,7 +39,7 @@
                 <ColumnDefinition Width="80*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Nombre*" Grid.Column="0" Name="label_nombre"/>
-            <TextBox x:Name="nombre"  Grid.Column="1"  Height="20"/>
+            <TextBox x:Name="boxnombre"  Grid.Column="1"  Height="20"   />
         </Grid>
         <Grid  Grid.Row="2" Grid.Column="0" Margin="15,0">
             <Grid.ColumnDefinitions>
@@ -83,7 +83,7 @@
             <Label Content="DNI*" Grid.Column="0" Name="label_dni"/>
             <TextBox x:Name="box_dni"  Grid.Column="1" Height="20" />
         </Grid>
-        <Grid  Grid.Row="7" Grid.Column="0" >
+        <Grid  Grid.Row="7" Grid.Column="0" Margin="15,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="auto"/>
@@ -93,7 +93,7 @@
             <Button Grid.Column="1" Margin="10,0" Content="Cargar foto" Height="50" Width="100"  HorizontalAlignment="Left"  Click="SeleccionarImagen_Click" />
             <Image Grid.Column="2" Name="imagenPrevia" Width="100" Height="100" HorizontalAlignment="Center" />
         </Grid>
-        <Grid  Grid.Row="8" Grid.Column="0" >
+        <Grid  Grid.Row="8" Grid.Column="0" Margin="15,0" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20*"/>
                 <ColumnDefinition Width="80*"/>
@@ -106,33 +106,48 @@
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <Label Content="Domicilio" Grid.Row="0" Grid.Column="0" Name="label_domicilio"/>
-            <TextBox x:Name="box_direccion" Grid.Row="0" Grid.Column="1" Height="20" Text="Dirección"  />
-            <TextBox x:Name="box_ciudad" Grid.Row="1" Grid.Column="1" Height="20" Text="Ciudad" Margin="0,3,0,3" />
-            <TextBox x:Name="box_provincia" Grid.Row="2" Grid.Column="1" Height="20" Text="Provincia" Margin="0,3,0,3"/>
-            <TextBox x:Name="box_codigo" Grid.Row="3" Grid.Column="1" Height="20" Text="Código Postal" Margin="0,3,0,3"/>
-            <TextBox x:Name="box_pais" Grid.Row="4" Grid.Column="1" Height="20" Text="País"  Margin="0,3,0,3"/>
+            <TextBox x:Name="box_direccion" Grid.Row="0" Grid.Column="1" Height="20" Text = "Dirección" GotFocus="gotFocus" />
+            <TextBox x:Name="box_ciudad" Grid.Row="1" Grid.Column="1" Height="20" Text="Ciudad" Margin="0,3,0,3" GotFocus="gotFocus"  />
+            <TextBox x:Name="box_provincia" Grid.Row="2" Grid.Column="1" Height="20" Text="Provincia" Margin="0,3,0,3" GotFocus="gotFocus" />
+            <TextBox x:Name="box_codigo" Grid.Row="3" Grid.Column="1" Height="20" Text="Código Postal" Margin="0,3,0,3" GotFocus="gotFocus" />
+            <TextBox x:Name="box_pais" Grid.Row="4" Grid.Column="1" Height="20" Text="País"  Margin="0,3,0,3"  GotFocus="gotFocus" />
         </Grid>
         <Image Source="/recursos/company.jpg" Grid.Column="1" Grid.Row="1" Grid.RowSpan="8" Height="200" Width="200" VerticalAlignment="Bottom"/>
 
-        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="9">
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="9" Margin="15,0">
             <Grid.ColumnDefinitions >
                 <ColumnDefinition Width="15*"/>
                 <ColumnDefinition Width="85*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Enlace a red social" Grid.Row="0" Grid.Column="0" Name="label_social"/>
-            <TextBox x:Name="box_redsocial" Margin="0,0,50,0" Height="20" Grid.Row="0" Grid.Column="1"/>
+            <TextBox x:Name="box_redsocial" Margin="0,0,40,0" Height="20" Grid.Row="0" Grid.Column="1"/>
         </Grid>
-        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="10">
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="10" Margin="15,0">
             <Grid.ColumnDefinitions >
                 <ColumnDefinition Width="15*"/>
-                <ColumnDefinition Width="42.5*"/>
-                <ColumnDefinition Width="42.5*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="55*"/>
+                
             </Grid.ColumnDefinitions>
             <Label Content="Rol actual" Grid.Row="0" Grid.Column="0" Name="label_rol"/>
-            <ComboBox Grid.Column="1" >
-                <ComboBoxItem></ComboBoxItem>
+            <ComboBox Grid.Column="1" Height="20" x:Name="combo_rol">
+                <ComboBoxItem>Analista</ComboBoxItem>
+                <ComboBoxItem>Desarrollador</ComboBoxItem>
             </ComboBox>
         </Grid>
+        <TextBlock Margin="20,10" Grid.Row="11" Text="Descripcion del puesto de trabajo actual" />
+        <TextBox x:Name="textBox_puesto" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="2" Height="50" Margin="20,0,40,0"/>
+        <Button x:Name="boton_guardar" Grid.Column="0" Grid.Row="13" Content="Guardar" HorizontalAlignment="Right" Height="40" Width="100" Margin="5,10" Click="boton_guardar_Click" />
+        <Button x:Name="boton_cancelar" Grid.Column="1" Grid.Row="13" Content="Cancelarar" HorizontalAlignment="Left" Height="40" Width="100" Margin="5,10" Click="boton_cancelar_Click"/>
+        <DataGrid x:Name="datagrid" Grid.Row="14" Grid.ColumnSpan="2" ItemsSource="{Binding}"  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Width="10*" Binding="{Binding nombre}"/>
+                <DataGridTextColumn Header="Apellidos" Width="30*" Binding="{Binding apellidos}"/>
+                <DataGridTextColumn Header="Email" Width="20*" Binding="{Binding email}"/>
+                <DataGridTextColumn Header="Teléfono" Width="20*" Binding="{Binding telefono}"/>
+            </DataGrid.Columns>
+            
+        </DataGrid>
 
 
     </Grid>

@@ -41,5 +41,84 @@ namespace formulario_de_juan_pablo
                 imagenPrevia.Source = imagenBitmap;
             }
         }
+
+        private void boton_guardar_Click(object sender, RoutedEventArgs e)
+        {
+            if (boxnombre.Text == "")
+            {
+                MessageBox.Show("El campo Nombre no puede estar vacío", "Error");
+            }
+            else if (box_apellidos.Text == "")
+            {
+                MessageBox.Show("El campo Apellidos no puede estar vacío", "Error");
+            }
+            else if (box_email.Text == "")
+            {
+                MessageBox.Show("El campo E-mail no puede estar vacío", "Error");
+            }
+            else if (box_telefono.Text == "")
+            {
+                MessageBox.Show("El campo Teléfono no puede estar vacío", "Error");
+            }
+            else
+            {
+                Empleado nuevoEmpleado = new Empleado(boxnombre.Text, box_apellidos.Text, box_email.Text, box_telefono.Text);
+
+
+                datagrid.Items.Add(nuevoEmpleado);
+            }
+
+
+        }
+
+        private void boton_cancelar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+
+
+
+        public class Empleado
+        {
+            private string nombre { get; set; }
+            private string apellidos { get; set; }
+            private string email { get; set; }
+            private string telefono { get; set; }
+
+            public Empleado(string nombre, string apellidos, string email, string telefono)
+            {
+                this.nombre = nombre;
+                this.apellidos = apellidos;
+                this.email = email;
+                this.telefono = telefono;
+            }
+        }
+
+        private void gotFocus(object sender, RoutedEventArgs e)
+        {
+            if (!String.IsNullOrWhiteSpace(box_direccion.Text))
+            {
+                box_direccion.Text = "Dirección";
+            }
+            else if (String.IsNullOrWhiteSpace(box_ciudad.Text))
+            {
+                box_ciudad.Text = "";
+            }
+            else if (String.IsNullOrWhiteSpace(box_provincia.Text))
+            {
+                box_provincia.Text = "Provincia";
+            }
+            else if (String.IsNullOrWhiteSpace(box_codigo.Text))
+            {
+                box_codigo.Text = "Código Postal";
+
+            }
+            else if (String.IsNullOrWhiteSpace(box_pais.Text))
+            {
+                box_pais.Text = "País";
+            }
+        }
     }
 }
