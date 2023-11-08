@@ -1,0 +1,15 @@
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\bin\Release\Controles de Juan Pablo Marin.exe.config
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\bin\Release\Controles de Juan Pablo Marin.exe
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\bin\Release\Controles de Juan Pablo Marin.pdb
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\App.g.cs
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin.g.resources
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles_de_Juan_Pablo_Marin.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin.exe
+C:\Users\alumTA\Desktop\dein\Controles de Juan Pablo Marin\obj\Release\Controles de Juan Pablo Marin.pdb

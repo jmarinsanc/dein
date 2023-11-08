@@ -1,0 +1,15 @@
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\bin\Release\formulario de juan pablo.exe.config
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\bin\Release\formulario de juan pablo.exe
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\bin\Release\formulario de juan pablo.pdb
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\App.g.cs
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.g.resources
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario_de_juan_pablo.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.exe
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.pdb

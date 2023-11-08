@@ -1,0 +1,14 @@
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\bin\Release\proyecto prueba git.exe.config
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\bin\Release\proyecto prueba git.exe
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\bin\Release\proyecto prueba git.pdb
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\App.g.cs
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git.g.resources
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto_prueba_git.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git.exe
+C:\Users\alumTA\Desktop\dein\proyecto prueba git\obj\Release\proyecto prueba git.pdb
