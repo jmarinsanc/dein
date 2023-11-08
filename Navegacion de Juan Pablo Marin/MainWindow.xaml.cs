@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Controles_de_Juan_Pablo_Marin
+namespace Navegacion_de_Juan_Pablo_Marin
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
@@ -23,11 +23,6 @@ namespace Controles_de_Juan_Pablo_Marin
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void combo_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }

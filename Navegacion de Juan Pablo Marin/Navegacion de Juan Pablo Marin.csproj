@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95D52AF3-656A-41C9-B03D-7880E81DA688}</ProjectGuid>
+    <ProjectGuid>{360F70FA-68B8-4EF0-8606-9BB1056A966A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Controles_de_Juan_Pablo_Marin</RootNamespace>
-    <AssemblyName>Controles de Juan Pablo Marin</AssemblyName>
+    <RootNamespace>Navegacion_de_Juan_Pablo_Marin</RootNamespace>
+    <AssemblyName>Navegacion de Juan Pablo Marin</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,14 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\icons8-favicon-16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\asa_butter.jpeg" />
-    <Resource Include="recursos\emma_mackey.jpeg" />
-    <Resource Include="recursos\ncuti_gatwa.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
