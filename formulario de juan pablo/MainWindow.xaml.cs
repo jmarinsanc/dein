@@ -42,8 +42,17 @@ namespace formulario_de_juan_pablo
             }
         }
 
+        private void boton_cancelar_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow nuevaVentana = new MainWindow();
+            nuevaVentana.Show();
+            this.Close();
+        }
+
         private void boton_guardar_Click(object sender, RoutedEventArgs e)
         {
+            
+
             if (boxnombre.Text == "")
             {
                 MessageBox.Show("El campo Nombre no puede estar vacío", "Error");
@@ -71,10 +80,7 @@ namespace formulario_de_juan_pablo
 
         }
 
-        private void boton_cancelar_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
 
 
 
@@ -82,10 +88,10 @@ namespace formulario_de_juan_pablo
 
         public class Empleado
         {
-            private string nombre { get; set; }
-            private string apellidos { get; set; }
-            private string email { get; set; }
-            private string telefono { get; set; }
+            public string nombre { get; set; }
+            public string apellidos { get; set; }
+            public string email { get; set; }
+            public string telefono { get; set; }
 
             public Empleado(string nombre, string apellidos, string email, string telefono)
             {
@@ -98,26 +104,35 @@ namespace formulario_de_juan_pablo
 
         private void gotFocus(object sender, RoutedEventArgs e)
         {
-            if (!String.IsNullOrWhiteSpace(box_direccion.Text))
+            if(sender is TextBox textbox)
             {
-                box_direccion.Text = "Dirección";
+                if(!String.IsNullOrWhiteSpace(textbox.Text))
+                {
+                    textbox.Text = "";
+                }
+                
             }
-            else if (String.IsNullOrWhiteSpace(box_ciudad.Text))
-            {
-                box_ciudad.Text = "";
-            }
-            else if (String.IsNullOrWhiteSpace(box_provincia.Text))
-            {
-                box_provincia.Text = "Provincia";
-            }
-            else if (String.IsNullOrWhiteSpace(box_codigo.Text))
-            {
-                box_codigo.Text = "Código Postal";
+        }
 
-            }
-            else if (String.IsNullOrWhiteSpace(box_pais.Text))
+        private void Txt_lostFocus(object sender, RoutedEventArgs e)
+        {
+            if (sender is TextBox textbox)
             {
-                box_pais.Text = "País";
+                if (String.IsNullOrWhiteSpace(textbox.Text))
+                {
+                    if (textbox.Name == "box_direccion")
+                    {
+                        textbox.Text="Dirección";
+                    }else if(textbox.Name == "box_ciudad"){
+                        textbox.Text = "Ciudad";
+                    }
+                    else if(textbox.Name == "box_provincia")
+                    textbox.Text = "Provincia";
+                    else if (textbox.Name == "box_codigo")
+                        textbox.Text = "Código Postal";
+                    else if (textbox.Name == "box_pais")
+                        textbox.Text = "País";
+                }
             }
         }
     }

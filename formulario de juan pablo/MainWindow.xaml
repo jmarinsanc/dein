@@ -46,7 +46,7 @@
                 <ColumnDefinition Width="20*"/>
                 <ColumnDefinition Width="80*"/>
             </Grid.ColumnDefinitions>
-            <Label Content="Apellidos" Grid.Column="0" Name="label_apellidos"/>
+            <Label Content="Apellidos*" Grid.Column="0" Name="label_apellidos"/>
             <TextBox x:Name="box_apellidos"  Grid.Column="1" Height="20" />
         </Grid>
         <Grid  Grid.Row="3" Grid.Column="0" Margin="15,0">
@@ -106,11 +106,11 @@
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <Label Content="Domicilio" Grid.Row="0" Grid.Column="0" Name="label_domicilio"/>
-            <TextBox x:Name="box_direccion" Grid.Row="0" Grid.Column="1" Height="20" Text = "Dirección" GotFocus="gotFocus" />
-            <TextBox x:Name="box_ciudad" Grid.Row="1" Grid.Column="1" Height="20" Text="Ciudad" Margin="0,3,0,3" GotFocus="gotFocus"  />
-            <TextBox x:Name="box_provincia" Grid.Row="2" Grid.Column="1" Height="20" Text="Provincia" Margin="0,3,0,3" GotFocus="gotFocus" />
-            <TextBox x:Name="box_codigo" Grid.Row="3" Grid.Column="1" Height="20" Text="Código Postal" Margin="0,3,0,3" GotFocus="gotFocus" />
-            <TextBox x:Name="box_pais" Grid.Row="4" Grid.Column="1" Height="20" Text="País"  Margin="0,3,0,3"  GotFocus="gotFocus" />
+            <TextBox x:Name="box_direccion" Grid.Row="0" Grid.Column="1" Height="20" Text = "Dirección" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_ciudad" Grid.Row="1" Grid.Column="1" Height="20" Text="Ciudad" Margin="0,3,0,3" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_provincia" Grid.Row="2" Grid.Column="1" Height="20" Text="Provincia" Margin="0,3,0,3" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_codigo" Grid.Row="3" Grid.Column="1" Height="20" Text="Código Postal" Margin="0,3,0,3" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_pais" Grid.Row="4" Grid.Column="1" Height="20" Text="País"  Margin="0,3,0,3"  GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
         </Grid>
         <Image Source="/recursos/company.jpg" Grid.Column="1" Grid.Row="1" Grid.RowSpan="8" Height="200" Width="200" VerticalAlignment="Bottom"/>
 
@@ -138,13 +138,13 @@
         <TextBlock Margin="20,10" Grid.Row="11" Text="Descripcion del puesto de trabajo actual" />
         <TextBox x:Name="textBox_puesto" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="2" Height="50" Margin="20,0,40,0"/>
         <Button x:Name="boton_guardar" Grid.Column="0" Grid.Row="13" Content="Guardar" HorizontalAlignment="Right" Height="40" Width="100" Margin="5,10" Click="boton_guardar_Click" />
-        <Button x:Name="boton_cancelar" Grid.Column="1" Grid.Row="13" Content="Cancelarar" HorizontalAlignment="Left" Height="40" Width="100" Margin="5,10" Click="boton_cancelar_Click"/>
-        <DataGrid x:Name="datagrid" Grid.Row="14" Grid.ColumnSpan="2" ItemsSource="{Binding}"  AutoGenerateColumns="False">
+        <Button x:Name="boton_cancelar" Grid.Column="1" Grid.Row="13" Content="Cancelar" HorizontalAlignment="Left" Height="40" Width="100" Margin="5,10" Click="boton_cancelar_Click"/>
+        <DataGrid x:Name="datagrid" Grid.Row="14" Grid.ColumnSpan="2" ItemsSource="{Binding}"  AutoGenerateColumns="False" Margin="20,0">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre" Width="10*" Binding="{Binding nombre}"/>
-                <DataGridTextColumn Header="Apellidos" Width="30*" Binding="{Binding apellidos}"/>
+                <DataGridTextColumn Header="Apellidos" Width="40*" Binding="{Binding apellidos}"/>
                 <DataGridTextColumn Header="Email" Width="20*" Binding="{Binding email}"/>
-                <DataGridTextColumn Header="Teléfono" Width="20*" Binding="{Binding telefono}"/>
+                <DataGridTextColumn Header="Teléfono" Width="10*" Binding="{Binding telefono}"/>
             </DataGrid.Columns>
             
         </DataGrid>
