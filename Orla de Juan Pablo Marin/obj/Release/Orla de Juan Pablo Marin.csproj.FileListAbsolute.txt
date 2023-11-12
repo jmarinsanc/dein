@@ -1,0 +1,20 @@
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\bin\Release\Orla de Juan Pablo Marin.exe.config
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\bin\Release\Orla de Juan Pablo Marin.exe
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\bin\Release\Orla de Juan Pablo Marin.pdb
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\MainWindow.g.cs
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\UserControl1.g.cs
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Window1.g.cs
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\App.g.cs
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin_MarkupCompile.cache
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin_MarkupCompile.lref
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\MainWindow.baml
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\UserControl1.baml
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Window1.baml
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin.g.resources
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla_de_Juan_Pablo_Marin.Properties.Resources.resources
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin.csproj.GenerateResource.cache
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin.csproj.CoreCompileInputs.cache
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin.exe
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin.pdb
+C:\Users\jmari\Desktop\Orla de Juan Pablo Marin\obj\Release\Orla de Juan Pablo Marin.csproj.AssemblyReference.cache
