@@ -43,7 +43,7 @@ namespace conexionbbdd_juanpablo
                 miAdapatadorSql.Fill(clientesTabla);
 
                 ListaClientes.DisplayMemberPath = "nombre";
-                ListaClientes.SelectedValuePath = "ID";
+                ListaClientes.SelectedValuePath = "ID"; 
                 ListaClientes.ItemsSource = clientesTabla.DefaultView;
 
             }
