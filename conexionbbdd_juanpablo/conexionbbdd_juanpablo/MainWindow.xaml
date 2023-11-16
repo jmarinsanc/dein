@@ -8,5 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         
+        <DataGrid x:Name="ListaClientes" AutoGenerateColumns="True" ></DataGrid>
+
     </Grid>
 </Window>

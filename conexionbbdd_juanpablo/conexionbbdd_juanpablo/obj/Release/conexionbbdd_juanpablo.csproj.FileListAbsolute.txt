@@ -1,0 +1,15 @@
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\bin\Release\conexionbbdd_juanpablo.exe.config
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\bin\Release\conexionbbdd_juanpablo.exe
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\bin\Release\conexionbbdd_juanpablo.pdb
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\App.g.cs
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.g.resources
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.exe
+C:\Users\alumTA\Desktop\dein\conexionbbdd_juanpablo\conexionbbdd_juanpablo\obj\Release\conexionbbdd_juanpablo.pdb
