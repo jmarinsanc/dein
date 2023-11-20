@@ -29,19 +29,19 @@
             <RowDefinition Height="25"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Background="Black" />
-        <Button Grid.Column="1" Background="Black" Foreground="White" FontSize="18">Home</Button>
-        <Button Grid.Column="2" Background="Black" Foreground="White" FontSize="18">Galería</Button>
-        <Button Grid.Column="3" Background="Black" Foreground="White" FontSize="18">Convertidor</Button>
-        <Button Grid.Column="4" Background="Black" Foreground="White" FontSize="18">Disponibilidad</Button>
-        <Button Grid.Column="5" Background="Black" Foreground="White" FontSize="18">Login</Button>
-        <Button Grid.Column="6" Background="Black" Foreground="White" FontSize="18">Carrito</Button>
-        <Button Grid.Column="0" Grid.Row="2" Background="Black" Foreground="White" FontSize="18">Ubicacion</Button>
-        <Button Grid.Column="0" Grid.Row="3" Background="Black" Foreground="White" FontSize="18">Honda</Button>
-        <Button Grid.Column="0" Grid.Row="4" Background="Black" Foreground="White" FontSize="18">Yamaha</Button>
-        <Button Grid.Column="0" Grid.Row="5" Background="Black" Foreground="White" FontSize="18">Ktm</Button>
-        <Button Grid.Column="0" Grid.Row="6" Background="Black" Foreground="White" FontSize="18">Kawasaki</Button>
-        <Button Grid.Column="0" Grid.Row="7" Background="Black" Foreground="White" FontSize="18">Ducati</Button>
+        <Button Grid.Column="0" Background="Black" BorderThickness="0"/>
+        <Button Grid.Column="1" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Home</Button>
+        <Button Grid.Column="2" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Galería</Button>
+        <Button Grid.Column="3" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Convertidor</Button>
+        <Button Grid.Column="4" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Disponibilidad</Button>
+        <Button Grid.Column="5" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Login</Button>
+        <Button Grid.Column="6" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Carrito</Button>
+        <Button Grid.Column="0" Grid.Row="2" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Ubicacion</Button>
+        <Button Grid.Column="0" Grid.Row="3" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Honda</Button>
+        <Button Grid.Column="0" Grid.Row="4" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Yamaha</Button>
+        <Button Grid.Column="0" Grid.Row="5" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Ktm</Button>
+        <Button Grid.Column="0" Grid.Row="6" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Kawasaki</Button>
+        <Button Grid.Column="0" Grid.Row="7" Background="Black" Foreground="White" BorderThickness="0" FontSize="18">Ducati</Button>
         <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="6"  FontSize="36" VerticalAlignment="Bottom" TextDecorations="Underline" HorizontalAlignment="Center" Text="Bienvenidos a MotoRenting Navarra" ></TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" Grid.RowSpan="2" FontSize="13" HorizontalAlignment="Center" Text="Tu nueva tienda online de renting. Aquí encontrarás las mejores marcas a un precio imbatible. &#10; 
 Contactanos para saber más o para cualquier duda que tengas, estaremos encantados de ayudarte"></TextBlock>

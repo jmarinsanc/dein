@@ -1,0 +1,18 @@
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\bin\Debug\MotoRenting Navarra.exe.config
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\bin\Debug\MotoRenting Navarra.exe
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\bin\Debug\MotoRenting Navarra.pdb
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Dictionary1.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\UserControl1.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\App.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\UserControl1.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.g.resources
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting_Navarra.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.exe
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.pdb
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\GeneratedInternalTypeHelper.g.cs

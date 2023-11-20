@@ -13,3 +13,18 @@ D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Mar
 D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
 D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
 D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe.config
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\App.g.cs
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.g.resources
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando_la_Main_Window_de_Juan_Pablo_Marin_Sanchez.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
+C:\Users\alumTA\Desktop\dein\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
