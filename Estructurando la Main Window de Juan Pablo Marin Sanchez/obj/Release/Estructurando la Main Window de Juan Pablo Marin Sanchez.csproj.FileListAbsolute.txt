@@ -1,0 +1,15 @@
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe.config
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\MainWindow.g.cs
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\App.g.cs
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez_MarkupCompile.cache
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez_MarkupCompile.lref
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\MainWindow.baml
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.g.resources
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando_la_Main_Window_de_Juan_Pablo_Marin_Sanchez.Properties.Resources.resources
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.GenerateResource.cache
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.CoreCompileInputs.cache
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
+D:\desarrollo de interfaces\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Release\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe.config
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\bin\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.AssemblyReference.cache
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\MainWindow.g.cs
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\App.g.cs
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez_MarkupCompile.cache
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez_MarkupCompile.lref
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\MainWindow.baml
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.g.resources
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando_la_Main_Window_de_Juan_Pablo_Marin_Sanchez.Properties.Resources.resources
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.GenerateResource.cache
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.exe
+C:\Users\alumTA\source\repos\Estructurando la Main Window de Juan Pablo Marin Sanchez\obj\Debug\Estructurando la Main Window de Juan Pablo Marin Sanchez.pdb
