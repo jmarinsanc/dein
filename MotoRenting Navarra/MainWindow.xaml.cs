@@ -24,5 +24,10 @@ namespace MotoRenting_Navarra
         {
             InitializeComponent();
         }
+
+        private void UserControl1_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

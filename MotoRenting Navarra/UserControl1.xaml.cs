@@ -82,5 +82,20 @@ namespace MotoRenting_Navarra
             conver.Show();
 
         }
+
+        public void Ir_Home(object sender, RoutedEventArgs e)
+        {
+            MainWindow home = new MainWindow();
+            Window parentWindow = Window.GetWindow(this);
+
+            if (parentWindow != null)
+            {
+                // Cerrar la ventana principal
+                parentWindow.Close();
+            }
+            home.Show();
+
+
+        }
     }
 }

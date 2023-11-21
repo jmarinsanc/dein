@@ -58,6 +58,9 @@
     <Compile Include="Convertidor.xaml.cs">
       <DependentUpon>Convertidor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="footer.xaml.cs">
+      <DependentUpon>footer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Galeria.xaml.cs">
       <DependentUpon>Galeria.xaml</DependentUpon>
     </Compile>
@@ -69,6 +72,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="footer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

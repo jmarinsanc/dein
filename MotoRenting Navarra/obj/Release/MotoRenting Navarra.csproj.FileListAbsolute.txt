@@ -5,7 +5,6 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Dictionary1.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MainWindow.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\UserControl1.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\App.g.cs
-C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\GeneratedInternalTypeHelper.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_MarkupCompile.cache
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_MarkupCompile.lref
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MainWindow.baml
@@ -21,3 +20,7 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Galeria.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Galeria.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Convertidor.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Convertidor.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\App.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\footer.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\footer.baml
