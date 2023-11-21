@@ -45,5 +45,10 @@ namespace MotoRenting_Navarra
             
             
         }
+
+        private void Image_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+
+        }
     }
 }

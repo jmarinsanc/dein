@@ -129,5 +129,10 @@
   <ItemGroup>
     <Resource Include="recursos\logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\facebook.png" />
+    <Resource Include="recursos\gorjeo.png" />
+    <Resource Include="recursos\instagram.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

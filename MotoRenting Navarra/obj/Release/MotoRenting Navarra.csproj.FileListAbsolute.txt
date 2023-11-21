@@ -15,7 +15,6 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.CoreCompileInputs.cache
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.exe
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.pdb
-C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Galeria.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Galeria.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Convertidor.g.cs
