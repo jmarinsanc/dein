@@ -134,5 +134,8 @@
     <Resource Include="recursos\gorjeo.png" />
     <Resource Include="recursos\instagram.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="recursos\Yamaha Tracer 9 GT  Prueba.mp4" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

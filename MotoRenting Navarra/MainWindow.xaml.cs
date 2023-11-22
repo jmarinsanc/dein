@@ -29,5 +29,24 @@ namespace MotoRenting_Navarra
         {
 
         }
+        private void MouseLeave_boton(object sender, MouseEventArgs e)
+        {
+            if (sender is Button boton)
+            {
+                // Cambiar el color de fondo del botón
+                boton.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("black"));
+            }
+        }
+
+        private void MouseEnter_boton(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button boton)
+            {
+                // Cambiar el color de fondo del botón
+                boton.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#D5C7BC"));
+            }
+        }
+
+
     }
 }

@@ -8,9 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/facebook.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/gorjeo.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/instagram.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/youtube.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/yamaha%20tracer%209%20gt%20%20prueba.mp4")]
 
 

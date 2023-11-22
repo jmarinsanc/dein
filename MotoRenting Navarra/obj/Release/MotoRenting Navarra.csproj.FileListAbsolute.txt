@@ -23,3 +23,30 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\App.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\GeneratedInternalTypeHelper.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\footer.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\footer.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Release\MotoRenting Navarra.exe.config
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Release\MotoRenting Navarra.exe
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Release\MotoRenting Navarra.pdb
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Dictionary1.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Convertidor.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\footer.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Galeria.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MainWindow.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\UserControl1.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\App.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_MarkupCompile.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_MarkupCompile.lref
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\App.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Convertidor.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\footer.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Galeria.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MainWindow.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\UserControl1.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.g.resources
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting_Navarra.Properties.Resources.resources
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.GenerateResource.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.CoreCompileInputs.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.exe
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.pdb
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_Content.g.cs
