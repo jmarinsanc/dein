@@ -23,7 +23,17 @@ namespace MotoRenting_Navarra
         public MainWindow()
         {
             InitializeComponent();
+            mediaElement.MediaOpened += MediaElement_MediaOpened;
         }
+
+        private void MediaElement_MediaOpened(object sender, RoutedEventArgs e)
+        {
+            // El archivo multimedia se ha cargado correctamente y está listo para reproducirse
+            // Puedes realizar acciones aquí, como obtener la duración del video
+            TimeSpan duration = mediaElement.NaturalDuration.TimeSpan;
+            // Haz algo con la duración del video
+        }
+    
 
         private void UserControl1_Loaded(object sender, RoutedEventArgs e)
         {

@@ -50,3 +50,5 @@ C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.exe
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.pdb
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_Content.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_Content.g.cs
