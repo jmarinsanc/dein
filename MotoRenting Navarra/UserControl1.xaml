@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              
-              Height="40"  MinWidth="810"
+              Height="40"  Width="810"
                >
 
     <!--<UserControl.Resources>
@@ -53,9 +53,9 @@
         <Button x:Name="home" Grid.Column="1" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="Ir_Home"   >Home</Button>
         <Button Grid.Column="2" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="Ir_galeria"  >Galería</Button>
         <Button Grid.Column="3" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="ir_convertidor"  >Convertidor</Button>
-        <Button Grid.Column="4" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton"   >Disponibilidad</Button>
-        <Button Grid.Column="5" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton"   >Login</Button>
-        <Button Grid.Column="6" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton"   >Carrito</Button>
+        <Button Grid.Column="4" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="Ir_disponibilidad"   >Disponibilidad</Button>
+        <Button Grid.Column="5" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="ir_login"   >Login</Button>
+        <Button Grid.Column="6" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="ir_carrito"   >Carrito</Button>
 
 
 

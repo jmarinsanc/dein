@@ -97,5 +97,47 @@ namespace MotoRenting_Navarra
 
 
         }
+
+        private void Ir_disponibilidad(object sender, RoutedEventArgs e)
+        {
+            Disponibilidad disponibilidad = new Disponibilidad();
+            Window parentWindow = Window.GetWindow(this);
+
+            if (parentWindow != null)
+            {
+                // Cerrar la ventana principal
+                parentWindow.Close();
+            }
+            disponibilidad.Show();
+
+        }
+
+        private void ir_login(object sender, RoutedEventArgs e)
+        {
+            Login login = new Login();
+            Window parentWindow = Window.GetWindow(this);
+
+            if (parentWindow != null)
+            {
+                // Cerrar la ventana principal
+                parentWindow.Close();
+            }
+            login.Show();
+
+        }
+
+        private void ir_carrito(object sender, RoutedEventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            Window parentWindow = Window.GetWindow(this);
+
+            if (parentWindow != null)
+            {
+                // Cerrar la ventana principal
+                parentWindow.Close();
+            }
+            carrito.Show();
+
+        }
     }
 }

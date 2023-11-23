@@ -1,0 +1,43 @@
+﻿<Window x:Class="MotoRenting_Navarra.Contacto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotoRenting_Navarra"
+        mc:Ignorable="d"
+        Title="MotoRenting Navarra" Height="480" Width="810" Icon="/recursos/logo.png" ResizeMode="CanResize" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="96*"/>
+            <ColumnDefinition Width="111*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="auto" MinWidth="130"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="112*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" >
+
+        </local:UserControl1>
+       
+
+        <local:footer Grid.Row="9"  Grid.ColumnSpan="9" >
+
+        </local:footer>
+
+    </Grid>
+</Window>

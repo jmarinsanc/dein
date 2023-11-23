@@ -26,7 +26,6 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\footer.baml
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Release\MotoRenting Navarra.exe.config
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Release\MotoRenting Navarra.exe
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Release\MotoRenting Navarra.pdb
-C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Dictionary1.baml
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Convertidor.g.cs
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\footer.g.cs
@@ -49,6 +48,20 @@ C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.CoreCompileInputs.cache
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.exe
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.pdb
+<<<<<<< HEAD
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_Content.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra_Content.g.cs
+=======
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Carrito.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Disponibilidad.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Login.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Carrito.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Disponibilidad.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Login.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.baml
+>>>>>>> 302711143f908040c331ad9e639c77a737155f5f

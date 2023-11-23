@@ -23,5 +23,59 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style TargetType="TextBox" x:Key="CustomTextBoxStyle">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="Padding" Value="10,5,0,0"/>
+            <Setter Property="Margin" Value="15,5,0,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="16">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="CustomButtonStyle">
+            <Setter Property="Background" Value="#4D4D4D"/>
+            <!-- Color de fondo del botón -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Color del texto -->
+            
+            <!-- Relleno interno -->
+            <Setter Property="Margin" Value="5"/>
+            <!-- Margen externo -->
+            <Setter Property="FontSize" Value="14"/>
+            <!-- Tamaño de fuente -->
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <!-- Tipo de letra -->
+            <Setter Property="BorderThickness" Value="0"/>
+            <!-- Grosor del borde -->
+            <Setter Property="BorderBrush" Value="#007ACC"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Color del borde -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="16">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
+    
+        
+    
 </Application>
