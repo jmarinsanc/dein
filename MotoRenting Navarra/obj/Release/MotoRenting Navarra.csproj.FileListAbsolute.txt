@@ -57,3 +57,5 @@ C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Login.baml
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.g.cs
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.baml
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.baml
