@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,6 +42,7 @@ namespace MotoRenting_Navarra
                 // Cerrar la ventana principal
                 parentWindow.Close();
             }
+
             
             
             
@@ -50,5 +52,85 @@ namespace MotoRenting_Navarra
         {
 
         }
+
+        private void ir_contacto(object sender, RoutedEventArgs e)
+        {
+            Contacto contacto = new Contacto();
+            Window parentWindow = Window.GetWindow(this);
+
+            if (parentWindow != null)
+            {
+                // Cerrar la ventana principal
+                parentWindow.Close();
+            }
+            contacto.Show();
+
+        }
+        private void AbrirGoogleMaps(string direccion)
+        {
+            direccion = direccion.Replace(" ", "+");
+            string url = $"https://www.google.com/maps?q={direccion}";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"No se pudo abrir Google Maps. Error: {ex.Message}");
+            }
+        }
+
+        private void ButtonDireccion_Click(object sender, RoutedEventArgs e)
+        {
+            string direccion = "av bayona 12, pamplona"; // Dirección deseada
+            AbrirGoogleMaps(direccion);
+        }
+
+        private void AbrirPaginaWeb(string url)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"No se pudo abrir la página web. Error: {ex.Message}");
+            }
+        }
+
+        private void ImagenRedSocial_Click(object sender, RoutedEventArgs e)
+        {
+            string url = "";
+
+            if (sender == ImageFacebook)
+            {
+                url = "https://www.facebook.com"; // Reemplaza con tu URL de Facebook
+            }
+            else if (sender == ImageInstagram)
+            {
+                url = "https://www.instagram.com"; // Reemplaza con tu URL de Instagram
+            }
+            else if (sender == ImageTwitter)
+            {
+                url = "https://www.twitter.com"; // Reemplaza con tu URL de Twitter
+            }
+            else if (sender == ImageYoutube)
+            {
+                url = "https://www.youtube.com"; // Reemplaza con tu URL de YouTube
+            }
+
+            AbrirPaginaWeb(url);
+        }
+
+
     }
 }

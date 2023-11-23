@@ -55,8 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Carrito.xaml.cs">
+      <DependentUpon>Carrito.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.xaml.cs">
+      <DependentUpon>Contacto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Convertidor.xaml.cs">
       <DependentUpon>Convertidor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Disponibilidad.xaml.cs">
+      <DependentUpon>Disponibilidad.xaml</DependentUpon>
     </Compile>
     <Compile Include="footer.xaml.cs">
       <DependentUpon>footer.xaml</DependentUpon>
@@ -64,9 +73,20 @@
     <Compile Include="Galeria.xaml.cs">
       <DependentUpon>Galeria.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
+    <Page Include="Carrito.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Contacto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Convertidor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -75,11 +95,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Disponibilidad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="footer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Galeria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,7 +163,10 @@
     <Resource Include="recursos\instagram.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="recursos\Yamaha Tracer 9 GT  Prueba.mp4" />
+    <Resource Include="recursos\youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="recursos\video-yamaha.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

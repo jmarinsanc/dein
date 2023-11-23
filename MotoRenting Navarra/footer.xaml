@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MotoRenting_Navarra"
              mc:Ignorable="d" 
-             d:DesignHeight="100" d:DesignWidth="810" Background="Gray">
+             d:DesignHeight="80" d:DesignWidth="810" Background="Gray">
     <UserControl.Resources>
         <Style x:Key="BotonSubrayadoEstilo" TargetType="Button">
             <Setter Property="Template">
@@ -23,6 +23,8 @@
             </Setter>
         </Style>
     </UserControl.Resources>
+    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -34,27 +36,21 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="41*"/>
-            <RowDefinition Height="26*"/>
-            <RowDefinition Height="33*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="23*"/>
         </Grid.RowDefinitions>
         <!--<Separator HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="0,10,0,10" />-->
-        <Rectangle Fill="Black" Height="2" Grid.ColumnSpan="3" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="0,22,100,17"/>
-        <Rectangle Fill="Black" Height="2" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="100,22,0,17"/>
-        <Button Grid.Row="1" Style="{StaticResource BotonSubrayadoEstilo}" Grid.Column="0" Content="Contacto" BorderThickness="0" Background="Transparent" Foreground="White" FontSize="16"/>
-        <Button Grid.Row="2" Style="{StaticResource BotonSubrayadoEstilo}" Grid.Column="0" Grid.ColumnSpan="2" Content="Av Bayona 12, Pamplona" BorderThickness="0" Background="Transparent" Foreground="White" FontSize="16"/>
+        <Rectangle Fill="Black" Height="2" Grid.ColumnSpan="3" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="0,16,100,18"/>
+        <Rectangle Fill="Black" Height="2" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="100,16,0,18"/>
+        <Button Grid.Row="1" Style="{StaticResource BotonSubrayadoEstilo}" Grid.Column="0" Content="Contacto" BorderThickness="0" Background="Transparent" Foreground="White" FontSize="16" Click="ir_contacto" />
+        <Button Grid.Row="2" Style="{StaticResource BotonSubrayadoEstilo}" Grid.Column="0" Grid.ColumnSpan="2" Content="Av Bayona 12, Pamplona" BorderThickness="0" Background="Transparent" Foreground="White" FontSize="16" Click="ButtonDireccion_Click" />
         <Button Grid.Column="2" Grid.Row="1" Content="MotoRenting Navarra" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="Transparent" FontSize="22" Foreground="white" FontWeight="Medium" BorderThickness="0" Click="Ir_Home" />
         <Button Grid.Row="1" Style="{StaticResource BotonSubrayadoEstilo}" Grid.Column="5"    Content="FAQS" HorizontalAlignment="Right" BorderThickness="0" Background="Transparent" Foreground="White" FontSize="16" Margin="0,0,10,0" Width="53"/>
         <Button Grid.Row="2" Style="{StaticResource BotonSubrayadoEstilo}" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Right"   Content="Política de privacidad" BorderThickness="0" Background="Transparent" Foreground="White" FontSize="16" Margin="0,0,10,0" Width="165"/>
-        <Image Source="/recursos/gorjeo.png" Grid.Column="3" Width="30" HorizontalAlignment="Center" Margin="53,5,52,5"/>
-        <Image Source="/recursos/youtube.png" Grid.Column="3" Width="35" HorizontalAlignment="Left" Grid.Row="0" Margin="10,3,0,5" />
-        <Image Source="/recursos/facebook.png" Grid.Column="2" Grid.Row="0" Height="25" Margin="52,5,53,5" />
-        <Image Source="/recursos/instagram.png" Grid.Column="2" Grid.Row="0" Height="25" Margin="95,5,10,5" />
-
-
-
-
+        <Image  x:Name="ImageTwitter" Source="/recursos/gorjeo.png" Grid.Column="3" Width="30" HorizontalAlignment="Center" Margin="53,5,52,5" MouseLeftButtonDown="ImagenRedSocial_Click"/>
+        <Image  x:Name="ImageYoutube" Source="/recursos/youtube.png" Grid.Column="3" Width="35" HorizontalAlignment="Left" Grid.Row="0" Margin="0,3,0,5" MouseLeftButtonDown="ImagenRedSocial_Click" />
+        <Image x:Name="ImageFacebook" Source="/recursos/facebook.png" Grid.Column="2" Grid.Row="0" Margin="52,8,53,8" MouseLeftButtonDown="ImagenRedSocial_Click" />
+        <Image x:Name="ImageInstagram"  Source="/recursos/instagram.png" Grid.Column="2" Grid.Row="0" Margin="95,8,10,8" MouseLeftButtonDown="ImagenRedSocial_Click" />
     </Grid>
-
-
 </UserControl>
