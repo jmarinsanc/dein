@@ -8,10 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-<<<<<<< HEAD
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/yamaha_tracer.mp4")]
-=======
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/usuario.png")]
->>>>>>> 302711143f908040c331ad9e639c77a737155f5f
 
 

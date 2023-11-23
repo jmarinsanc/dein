@@ -170,14 +170,10 @@
     <Resource Include="recursos\instagram.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Content Include="recursos\yamaha_tracer.mp4" />
-=======
     <Resource Include="recursos\youtube.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="recursos\usuario.png" />
->>>>>>> 302711143f908040c331ad9e639c77a737155f5f
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
