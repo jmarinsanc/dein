@@ -19,6 +19,7 @@ namespace MotoRenting_Navarra
     /// </summary>
     public partial class Login : Window
     {
+        private bool sesion = false;
         public Login()
         {
             InitializeComponent();
@@ -37,6 +38,46 @@ namespace MotoRenting_Navarra
                 parentWindow.Close();
             }
             signUp.Show();
+        }
+
+        private void iniciarSesion(object sender, RoutedEventArgs e)
+        {
+            if (sesion)
+            {
+                MessageBox.Show("La sesión ya está iniciada", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+
+
+
+
+
+            }
+            else
+            {
+                if (boxCorreo.Text == "")
+                {
+                    MessageBox.Show("El campo Correo no puede estar vacío", "Error");
+                }
+                else if (contraseña.Text == "")
+                {
+                    MessageBox.Show("El campo Contraseña no puede estar vacío", "Error");
+                }
+
+                else
+                {
+
+                    if (sesion)
+                    {
+                        MessageBox.Show("La sesión ya está iniciada", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sesión iniciada con éxito", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
+                        sesion = true;
+                        boxCorreo.Text = "";
+                        contraseña.Text = "";
+                    }
+                }
+            }
         }
     }
 }

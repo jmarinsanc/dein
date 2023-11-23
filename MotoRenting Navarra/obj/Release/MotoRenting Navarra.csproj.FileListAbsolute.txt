@@ -59,3 +59,16 @@ C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.baml
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.g.cs
 C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Carrito.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Disponibilidad.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Login.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Carrito.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Contacto.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Disponibilidad.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Login.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Privacidad.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Privacidad.baml
