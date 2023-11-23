@@ -126,6 +126,17 @@ namespace MotoRenting_Navarra
             AbrirPaginaWeb(url);
         }
 
+        private void Ir_privacidad(object sender, RoutedEventArgs e)
+        {
+            Privacidad priva = new Privacidad();
+            Window parentWindow = Window.GetWindow(this);
 
+            if (parentWindow != null)
+            {
+                // Cerrar la ventana principal
+                parentWindow.Close();
+            }
+            priva.Show();
+        }
     }
 }

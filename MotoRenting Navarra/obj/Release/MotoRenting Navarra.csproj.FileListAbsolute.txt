@@ -72,3 +72,5 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Login.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\SignUp.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Privacidad.g.cs
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Release\Privacidad.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Privacidad.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Release\Privacidad.baml

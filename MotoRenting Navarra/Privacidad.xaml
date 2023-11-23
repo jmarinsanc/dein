@@ -7,6 +7,44 @@
         mc:Ignorable="d"
         Title="Privacidad" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="96*"/>
+            <ColumnDefinition Width="111*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="auto" MinWidth="130"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="112*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" />
+        <TextBlock Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Grid.RowSpan="2" Text="Política de Privacidad" TextDecorations="Underline" FontSize="24" Grid.ColumnSpan="3"/>
+        <TextBlock TextWrapping="Wrap" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="7" Margin="0,20,0,0">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nulla semper, tempor ipsum sit amet, pulvinar felis. Nunc elit libero, molestie in malesuada id, pharetra id urna. Aenean mattis mattis odio, eget blandit nulla porta non. Praesent mollis feugiat nisl ut tristique. Maecenas mollis sollicitudin tortor, sit amet condimentum arcu efficitur id. Nunc vulputate, justo eget convallis malesuada, sapien metus porta mauris, eu imperdiet ex lectus id nisi. Vestibulum pulvinar, justo non cursus tristique, orci lectus cursus nulla, a condimentum orci ligula id nisi. Etiam elementum sit amet nisi quis hendrerit. Nunc feugiat quam consequat, fermentum tellus id, mollis ex. Donec consequat massa nec turpis convallis placerat. Proin aliquam pulvinar lectus, efficitur vestibulum nunc convallis at. Aenean mollis justo tincidunt venenatis fermentum. Quisque non arcu sit amet dui ullamcorper tincidunt.<LineBreak />
+        <LineBreak />
+        In vitae elementum nibh. Duis laoreet nisl id auctor rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec imperdiet mi. Cras facilisis lacinia purus, nec cursus sem. Aliquam auctor suscipit tortor, sit amet vulputate risus viverra a. Vestibulum dignissim in risus ac tincidunt. Donec cursus velit a purus aliquet imperdiet. Sed commodo mollis pharetra. Ut eu mattis massa, sollicitudin lobortis arcu.<LineBreak />
+        <LineBreak />
+        Ut mollis mi a erat commodo vestibulum. Quisque imperdiet lectus vitae maximus pellentesque. Nulla turpis augue, laoreet ac facilisis quis, mollis non mi. Sed ligula nunc, placerat mollis egestas vitae, faucibus sit amet lacus. Cras id ipsum at nulla aliquam sodales. Nullam condimentum commodo mattis. Maecenas volutpat tortor sed odio viverra venenatis. Sed orci mauris, imperdiet a eleifend id, ultricies non tellus. Maecenas consequat tincidunt augue, vitae condimentum odio convallis eget. Pellentesque facilisis justo risus, vel lacinia leo porttitor in. Sed quis tempus libero. Donec ultrices dapibus est et accumsan. Maecenas efficitur odio quis euismod condimentum. In nec eleifend lorem, id facilisis magna. Aliquam dictum mi sit amet placerat iaculis.
+        </TextBlock>
+
+
+
+        <local:footer Grid.Row="9"  Grid.ColumnSpan="9" />
+
+
+
     </Grid>
 </Window>
