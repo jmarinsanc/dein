@@ -35,7 +35,7 @@
         </local:UserControl1>
         <TextBlock Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Top" Grid.ColumnSpan="6"  FontSize="36"  TextDecorations="Underline" HorizontalAlignment="Center" Text="Bienvenidos a MotoRenting Navarra" ></TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" VerticalAlignment="Center" Grid.RowSpan="2" FontSize="15" HorizontalAlignment="Center" Text="Tu nueva tienda online de renting. Aquí encontrarás las mejores marcas a un precio imbatible. &#10; Contactanos para saber más o para cualquier duda que tengas, estaremos encantados de ayudarte"></TextBlock>
-        <Button Grid.Column="0" Grid.Row="2" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton">Ubicacion</Button>
+        <Button Grid.Column="0" Grid.Row="2" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton" Click="ir_ubicacion" >Ubicacion</Button>
         <Button Grid.Column="0" Grid.Row="3" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton">Honda</Button>
         <Button Grid.Column="0" Grid.Row="4" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton">Yamaha</Button>
         <Button Grid.Column="0" Grid.Row="5" Background="Black" Foreground="White" BorderThickness="0" FontSize="18" MouseEnter="MouseEnter_boton" MouseLeave="MouseLeave_boton">Ktm</Button>

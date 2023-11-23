@@ -23,5 +23,26 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style TargetType="TextBox" x:Key="CustomTextBoxStyle">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <!-- Se establece grosor del borde a 0 -->
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="16"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
+    
+        
+    
 </Application>

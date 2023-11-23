@@ -47,6 +47,10 @@ namespace MotoRenting_Navarra
             }
         }
 
-
+        private void ir_ubicacion(object sender, RoutedEventArgs e)
+        {
+            footer footer = new footer();
+            footer.AbrirGoogleMaps("av bayona 12, pamplona");
+        }
     }
 }

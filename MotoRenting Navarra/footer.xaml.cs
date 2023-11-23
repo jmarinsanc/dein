@@ -26,11 +26,6 @@ namespace MotoRenting_Navarra
             InitializeComponent();
         }
 
-        private void Hyperlink_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Ir_Home(object sender, RoutedEventArgs e)
         {
             UserControl1 user = new UserControl1();
@@ -66,7 +61,7 @@ namespace MotoRenting_Navarra
             contacto.Show();
 
         }
-        private void AbrirGoogleMaps(string direccion)
+        public void AbrirGoogleMaps(string direccion)
         {
             direccion = direccion.Replace(" ", "+");
             string url = $"https://www.google.com/maps?q={direccion}";
@@ -85,13 +80,13 @@ namespace MotoRenting_Navarra
             }
         }
 
-        private void ButtonDireccion_Click(object sender, RoutedEventArgs e)
+        public void ButtonDireccion_Click(object sender, RoutedEventArgs e)
         {
             string direccion = "av bayona 12, pamplona"; // Dirección deseada
             AbrirGoogleMaps(direccion);
         }
 
-        private void AbrirPaginaWeb(string url)
+        public void AbrirPaginaWeb(string url)
         {
             try
             {
