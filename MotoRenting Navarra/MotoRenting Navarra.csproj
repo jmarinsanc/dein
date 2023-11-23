@@ -165,8 +165,5 @@
   <ItemGroup>
     <Resource Include="recursos\youtube.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="recursos\video-yamaha.mp4" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
