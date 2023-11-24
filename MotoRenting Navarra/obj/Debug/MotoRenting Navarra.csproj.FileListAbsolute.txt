@@ -16,3 +16,23 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.c
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.exe
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.pdb
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Carrito.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Contacto.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Convertidor.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Disponibilidad.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\footer.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Galeria.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Login.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Privacidad.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\SignUp.g.cs
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\App.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Carrito.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Contacto.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Convertidor.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Disponibilidad.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\footer.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Galeria.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Login.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Privacidad.baml
+C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\SignUp.baml

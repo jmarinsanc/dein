@@ -53,9 +53,9 @@
             <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" >
+        <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" />
 
-        </local:UserControl1>
+
         <Label FontWeight="Bold" Grid.Row="2" Grid.Column="1" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Correo*</Label>
         <TextBox x:Name="boxCorreo" Grid.Row="2" Grid.Column="2" Margin="10" VerticalAlignment="Top" Grid.ColumnSpan="3" Grid.RowSpan="2" Style="{StaticResource CustomTextBoxStyle}" Width="300" Height="30"/>
         <Label FontWeight="Bold" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,0" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Contraseña*</Label>

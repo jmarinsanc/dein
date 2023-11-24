@@ -190,5 +190,12 @@
   <ItemGroup>
     <Resource Include="recursos\concesionario.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\ktm.png" />
+    <Resource Include="recursos\multi.png" />
+    <Resource Include="recursos\transalp.png" />
+    <Resource Include="recursos\versys.png" />
+    <Resource Include="recursos\yamaha_tracer.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

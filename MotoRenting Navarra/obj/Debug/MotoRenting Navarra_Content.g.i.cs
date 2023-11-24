@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/logo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/ktm.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/multi.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/transalp.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/versys.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("recursos/yamaha_tracer.jpg")]
 
 

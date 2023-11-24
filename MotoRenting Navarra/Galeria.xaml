@@ -30,19 +30,56 @@
             <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" >
+        <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" />
+        <TextBox x:Name="boxSearch" Grid.Row="1" Grid.RowSpan="2" Margin="0,10" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="3" Style="{StaticResource CustomTextBoxStyle}" Text="Search" Padding="10,7" FontSize="14" Height="30" Foreground="Gray" MouseEnter="Borrar_contenido" />
 
-        </local:UserControl1>
-        <TextBlock Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Top" Grid.ColumnSpan="6"  FontSize="36"  TextDecorations="Underline" HorizontalAlignment="Center" Text="Bienvenidos a MotoRenting Navarra" ></TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" VerticalAlignment="Center" Grid.RowSpan="2" FontSize="15" HorizontalAlignment="Center" Text="Tu nueva tienda online de renting. Aquí encontrarás las mejores marcas a un precio imbatible. &#10; Contactanos para saber más o para cualquier duda que tengas, estaremos encantados de ayudarte"></TextBlock>
+        <ListView Grid.Row="3" Grid.Column="1" Grid.RowSpan="5" Grid.ColumnSpan="5" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="LightGray" Margin="5" Padding="5">
+                        <Grid>
+                            <Image Source="{Binding ImageSource}" Width="100" Height="100" />
+                            
+                            <Button Content="Calcular cuota" VerticalAlignment="Bottom" Margin="0,5,0,0" />
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
 
-        <!--<Image Source="/recursos/yamaha tracer 9 gt  prueba.mp4"  Grid.Column="2" Grid.Row="4" Grid.RowSpan="4" Grid.ColumnSpan="4"></Image>-->
+            <!-- Definir aquí los elementos de los productos -->
+            <ListViewItem Width="200"  x:Name="tracerBox" Height="236">
+                <Grid Height="300">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Source="/recursos/yamaha_tracer.jpg" />
+                    <TextBlock Height="30" Grid.Row="1" Text="Yamaha Tracer 900 gt" />
+                    <Button Height="30" Grid.Row="2" x:Name="botonYamaha" Style="{StaticResource CustomButtonStyle}"/>
+                </Grid>
+                <!--<StackPanel>
+                    <Image Source="/recursos/yamaha_tracer.jpg" />
+                    <TextBlock Text="Yamaha Tracer 900 gt" />
+                    <Button x:Name="botonYamaha" Style="{StaticResource CustomButtonStyle}"/>
 
-        <MediaElement Source="/recursos/video-yamaha.mp4" Grid.Column="2" Grid.Row="4" Grid.RowSpan="4" Grid.ColumnSpan="4" LoadedBehavior="Play" ></MediaElement>
+                </StackPanel>-->
 
-        <local:footer Grid.Row="9"  Grid.ColumnSpan="9" >
+            </ListViewItem>
 
-        </local:footer>
+            <!-- Agrega más elementos ListViewItem para más productos -->
+        </ListView>
+
+
+
+        <local:footer Grid.Row="9"  Grid.ColumnSpan="9" />
+
+
 
     </Grid>
 </Window>

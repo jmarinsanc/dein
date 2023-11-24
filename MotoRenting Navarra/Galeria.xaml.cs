@@ -22,6 +22,20 @@ namespace MotoRenting_Navarra
         public Galeria()
         {
             InitializeComponent();
+            //boxSearch.Text += Borrar_contenido;
+        }
+
+        private void Borrar_contenido(object sender, MouseEventArgs e)
+        {
+            if(sender is TextBox)
+            {
+                if (boxSearch.Text.Equals("Search"))
+                {
+                    boxSearch.Text = "";
+                    boxSearch.Foreground = Brushes.Black;
+                }
+            }
+            
         }
     }
 }
