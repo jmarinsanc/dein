@@ -64,6 +64,9 @@
     <Compile Include="Convertidor.xaml.cs">
       <DependentUpon>Convertidor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cuota.xaml.cs">
+      <DependentUpon>Cuota.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Disponibilidad.xaml.cs">
       <DependentUpon>Disponibilidad.xaml</DependentUpon>
     </Compile>
@@ -78,6 +81,9 @@
     </Compile>
     <Compile Include="Privacidad.xaml.cs">
       <DependentUpon>Privacidad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resumen.xaml.cs">
+      <DependentUpon>Resumen.xaml</DependentUpon>
     </Compile>
     <Compile Include="SignUp.xaml.cs">
       <DependentUpon>SignUp.xaml</DependentUpon>
@@ -94,6 +100,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Convertidor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cuota.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,6 +140,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Privacidad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resumen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -195,7 +209,12 @@
     <Resource Include="recursos\multi.png" />
     <Resource Include="recursos\transalp.png" />
     <Resource Include="recursos\versys.png" />
-    <Resource Include="recursos\yamaha_tracer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\yamaha-tracer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\suzuki.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

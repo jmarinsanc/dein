@@ -33,45 +33,112 @@
         <local:UserControl1 Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="0" Height="40" />
         <TextBox x:Name="boxSearch" Grid.Row="1" Grid.RowSpan="2" Margin="0,10" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="3" Style="{StaticResource CustomTextBoxStyle}" Text="Search" Padding="10,7" FontSize="14" Height="30" Foreground="Gray" MouseEnter="Borrar_contenido" />
 
-        <ListView Grid.Row="3" Grid.Column="1" Grid.RowSpan="5" Grid.ColumnSpan="5" ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <ListView Grid.Row="3" Grid.Column="1" Grid.RowSpan="5" Grid.ColumnSpan="5" ScrollViewer.VerticalScrollBarVisibility="Hidden" BorderThickness="0" SelectionChanged="ListView_SelectionChanged">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <WrapPanel Orientation="Horizontal" />
+                    <WrapPanel Orientation="Vertical" />
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
             <ListView.ItemTemplate>
                 <DataTemplate>
+                    <!-- Tu plantilla de elementos de producto aquí -->
                     <Border Background="LightGray" Margin="5" Padding="5">
                         <Grid>
-                            <Image Source="{Binding ImageSource}" Width="100" Height="100" />
-                            
-                            <Button Content="Calcular cuota" VerticalAlignment="Bottom" Margin="0,5,0,0" />
+                            <Image Source="{Binding ImageSource}" Width="200" Height="200" />
+                            <Button Content="Calcular cuota" VerticalAlignment="Bottom" Margin="0,5,0,0" Click="Calcular_Cuota"  />
                         </Grid>
                     </Border>
                 </DataTemplate>
             </ListView.ItemTemplate>
 
-            <!-- Definir aquí los elementos de los productos -->
-            <ListViewItem Width="200"  x:Name="tracerBox" Height="236">
-                <Grid Height="300">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Image Grid.Row="0" Source="/recursos/yamaha_tracer.jpg" />
-                    <TextBlock Height="30" Grid.Row="1" Text="Yamaha Tracer 900 gt" />
-                    <Button Height="30" Grid.Row="2" x:Name="botonYamaha" Style="{StaticResource CustomButtonStyle}"/>
+            <!-- Aquí van los elementos de productos -->
+            <ListViewItem Height="220">
+                <Grid Width="550">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid x:Name="yamahagrid" Grid.Column="0" Height="300" Background="LightGray">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="/recursos/yamaha-tracer.png" Width="200" Height="200"  />
+                        <TextBlock Height="30" Grid.Row="1" Text="Yamaha Tracer 900 gt" FontSize="18"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Height="30" Grid.Row="2" x:Name="botonYamaha" Content="Calcula tu cuota" Click="Calcular_Cuota" FontSize="16" Style="{StaticResource CustomButtonStyle}"/>
+                    </Grid>
+                    <Grid  Grid.Column="2" Height="300" Background="LightGray">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="/recursos/transalp.png" Width="200" Height="200" />
+                        <TextBlock Height="30" Grid.Row="1" Text="Honda Transalp 750 xl" FontSize="18"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Height="30" Grid.Row="2" x:Name="botonHonda" Content="Calcula tu cuota" Click="Calcular_Cuota" FontSize="16" Style="{StaticResource CustomButtonStyle}"/>
+                    </Grid>
                 </Grid>
-                <!--<StackPanel>
-                    <Image Source="/recursos/yamaha_tracer.jpg" />
-                    <TextBlock Text="Yamaha Tracer 900 gt" />
-                    <Button x:Name="botonYamaha" Style="{StaticResource CustomButtonStyle}"/>
-
-                </StackPanel>-->
-
             </ListViewItem>
-
+            <ListViewItem Height="220" Margin="0,20">
+                <Grid Width="550">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid x:Name="versysGrid" Grid.Column="0" Height="300" Background="LightGray">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="/recursos/versys.png" Width="200" Height="200"  />
+                        <TextBlock Height="30" Grid.Row="1" Text="Kawasaki versys 650" FontSize="18"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Height="30" Grid.Row="2" x:Name="botonVersys" Click="Calcular_Cuota" Content="Calcula tu cuota" FontSize="16" Style="{StaticResource CustomButtonStyle}"/>
+                    </Grid>
+                    <Grid  Grid.Column="2" Height="300" Background="LightGray">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="/recursos/multi.png" Width="200" Height="200" />
+                        <TextBlock Height="30" Grid.Row="1" Text="Ducati Multiestrada v4" FontSize="18"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Height="30" Grid.Row="2" x:Name="botonDucati" Click="Calcular_Cuota" Content="Calcula tu cuota" FontSize="16" Style="{StaticResource CustomButtonStyle}"/>
+                    </Grid>
+                </Grid>
+            </ListViewItem>
+            <ListViewItem Height="220" Margin="0,20">
+                <Grid Width="550">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid x:Name="versysSuzuki" Grid.Column="0" Height="300" Background="LightGray">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="/recursos/suzuki.png" Width="200" Height="200"  />
+                        <TextBlock Height="30" Grid.Row="1" Text="Suzuki gsx1000-gt" FontSize="18"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Height="30" Grid.Row="2" x:Name="botonSuzuki" Click="Calcular_Cuota" Content="Calcula tu cuota" FontSize="16" Style="{StaticResource CustomButtonStyle}"/>
+                    </Grid>
+                    <Grid  Grid.Column="2" Height="300" Background="LightGray">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="/recursos/ktm.png" Width="200" Height="200" />
+                        <TextBlock Height="30" Grid.Row="1" Text="Ktm 1290 SAS" FontSize="18"  FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Height="30" Grid.Row="2" x:Name="botonktm" Click="Calcular_Cuota" Content="Calcula tu cuota" FontSize="16" Style="{StaticResource CustomButtonStyle}"/>
+                    </Grid>
+                </Grid>
+            </ListViewItem>
             <!-- Agrega más elementos ListViewItem para más productos -->
         </ListView>
 

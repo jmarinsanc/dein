@@ -36,3 +36,45 @@ C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Galeria.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Login.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\Privacidad.baml
 C:\Users\alumTA\Desktop\dein\MotoRenting Navarra\obj\Debug\SignUp.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Debug\MotoRenting Navarra.exe.config
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Debug\MotoRenting Navarra.exe
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\bin\Debug\MotoRenting Navarra.pdb
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.csproj.AssemblyReference.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Dictionary1.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Carrito.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Contacto.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Convertidor.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Disponibilidad.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\footer.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Galeria.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Login.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MainWindow.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Privacidad.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\SignUp.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\UserControl1.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\App.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra_MarkupCompile.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra_MarkupCompile.lref
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\App.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Carrito.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Contacto.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Convertidor.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Disponibilidad.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\footer.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Galeria.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Login.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MainWindow.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Privacidad.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\SignUp.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\UserControl1.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.g.resources
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting_Navarra.Properties.Resources.resources
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.csproj.GenerateResource.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.csproj.CoreCompileInputs.cache
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.exe
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\MotoRenting Navarra.pdb
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Cuota.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Cuota.baml
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Resumen.g.cs
+C:\Users\jmari\Desktop\dein\MotoRenting Navarra\obj\Debug\Resumen.baml
