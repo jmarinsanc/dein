@@ -41,6 +41,7 @@ namespace GestionEmpleados2023
             ConexionConSql = new SqlConnection(CadenaDeConexion);
         }
 
+
         public List<Empleado> ObtenerEmpleados()
         {
             EstablecerConexion();
@@ -85,6 +86,52 @@ namespace GestionEmpleados2023
         {
             List<Empleado> empleados = gestionEmpleados.ObtenerEmpleados();
             dataGrid.ItemsSource = empleados;
+        }
+
+        private void Volver_click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            this.Close();
+            main.Show();
+        }
+
+        private void EliminarEmpleado(object sender, RoutedEventArgs e)
+        {
+            if (dataGrid.SelectedItem != null)
+            {
+                Empleado empleadoSeleccionado = (Empleado)dataGrid.SelectedItem;
+
+                
+                EliminarEmpleadoDeBaseDeDatos(empleadoSeleccionado);
+
+                
+                CargarEmpleadosEnDataGrid();
+            }
+
+        }
+
+        private void EliminarEmpleadoDeBaseDeDatos(Empleado empleado)
+        {
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["GestionEmpleados2023.Properties.Settings.GestionEmpleadosConnectionString"].ConnectionString))
+                {
+                    string consulta = "DELETE FROM EMPLEADOS WHERE Nombre = @Nombre AND Apellidos = @Apellidos";
+
+                    using (SqlCommand cmd = new SqlCommand(consulta, conexion))
+                    {
+                        cmd.Parameters.AddWithValue("@Nombre", empleado.Nombre);
+                        cmd.Parameters.AddWithValue("@Apellidos", empleado.Apellidos);
+
+                        conexion.Open();
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al eliminar empleado: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

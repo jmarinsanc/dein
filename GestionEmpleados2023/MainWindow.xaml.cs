@@ -31,5 +31,19 @@ namespace GestionEmpleados2023
             this.Close();
             lista.Show();
         }
+
+        private void Ir_AgregarEmpleado(object sender, RoutedEventArgs e)
+        {
+            AgregarEmpleado agregar = new AgregarEmpleado();
+            this.Close();
+            agregar.Show();
+        }
+
+        private void Ir_Buscar(object sender, RoutedEventArgs e)
+        {
+            BuscarEmpleado buscar = new BuscarEmpleado();
+            this.Close();
+            buscar.Show();
+        }
     }
 }
