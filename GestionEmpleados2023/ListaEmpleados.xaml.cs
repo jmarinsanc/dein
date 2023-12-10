@@ -68,7 +68,39 @@ namespace GestionEmpleados2023
 
             return listaEmpleados;
         }
-    }
+
+        public List<Empleado> BuscarEmpleado(string nombre, string apellidos, bool esUsuario, int edad)
+        {
+            EstablecerConexion();
+
+            string consulta = "SELECT * FROM EMPLEADOS WHERE Nombre LIKE @Nombre AND Apellidos LIKE @Apellidos AND EsUsuario = @EsUsuario AND Edad = @Edad";
+            DataTable empleados = new DataTable();
+
+            List<Empleado> listaEmpleados = new List<Empleado>();
+            SqlDataAdapter adaptador = new SqlDataAdapter(consulta, ConexionConSql);
+
+            using (adaptador)
+            {
+                adaptador.SelectCommand.Parameters.AddWithValue("@Nombre", "%" + nombre + "%");
+                adaptador.SelectCommand.Parameters.AddWithValue("@Apellidos", "%" + apellidos + "%");
+                adaptador.SelectCommand.Parameters.AddWithValue("@EsUsuario", esUsuario);
+                adaptador.SelectCommand.Parameters.AddWithValue("@Edad", edad);
+
+                adaptador.Fill(empleados);
+            }
+
+            listaEmpleados = empleados.AsEnumerable().Select(row => new Empleado
+            {
+                Nombre = row.Field<string>("Nombre"),
+                Apellidos = row.Field<string>("Apellidos"),
+                EsUsuario = (row["EsUsuario"] != DBNull.Value) ? row.Field<bool>("EsUsuario") : false,
+                Edad = row.Field<int>("Edad")
+            }).ToList();
+
+            return listaEmpleados;
+        }
+    
+}
     /// <summary>
     /// Lógica de interacción para ListaEmpleados.xaml
     /// </summary>

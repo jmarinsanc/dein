@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\alumTA\Desktop\dein\GestionEmpleados2023\obj\Debug\
+C:\Users\jmari\Desktop\dein\GestionEmpleados2023\obj\Debug\
 GestionEmpleados2023
 none
 false
 DEBUG;TRACE
-C:\Users\alumTA\Desktop\dein\GestionEmpleados2023\App.xaml
-3-952117410
+C:\Users\jmari\Desktop\dein\GestionEmpleados2023\App.xaml
+41320918339
 
-81641841374
+10-935199079
 141066371409
-AgregarEmpleado.xaml;ListaEmpleados.xaml;MainWindow.xaml;
+AgregarEmpleado.xaml;BuscarEmpleado.xaml;ListaEmpleados.xaml;MainWindow.xaml;
 
-False
+True
 
