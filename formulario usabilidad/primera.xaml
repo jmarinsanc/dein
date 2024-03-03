@@ -1,0 +1,53 @@
+﻿<Window x:Class="formulario_de_juan_pablo.primera"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:formulario_de_juan_pablo"
+        mc:Ignorable="d"
+        Title="primera" Height="650" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanResize" Icon="/recursos/company.jpg">
+    <Grid Background="LightGray" >
+                <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <!-- Definición de columnas -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Introducción de Datos de Empleados" HorizontalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+        <ProgressBar Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" x:Name="progressBar" Height="30" VerticalAlignment="Bottom" Margin="0,0,0,10" IsIndeterminate="False" Value="0" Foreground="Brown"/>
+        <Label Content="Nombre*" Grid.Column="0" Grid.Row="1" Name="label_nombre" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <TextBox x:Name="boxnombre" MouseEnter="boxnombre_MouseEnter" Grid.Column="1" Grid.Row="1" Height="20" Background="Transparent" FontSize="16"  BorderBrush="Black" BorderThickness="0,0,0,1"/>
+        <Label Content="Apellidos*" Grid.Column="0" Grid.Row="2" Name="label_apellidos" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <TextBox x:Name="box_apellidos" MouseEnter="box_apellidos_MouseEnter" FontSize="16"  Grid.Row="2"  Grid.Column="1"  Height="20" Background="Transparent"   BorderBrush="Black" BorderThickness="0,0,0,1" />
+        <Label Content="E-mail*" Grid.Column="0" Name="label_email"  Grid.Row="3" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        <TextBox x:Name="box_email"  MouseEnter="box_email_MouseEnter" FontSize="16" Grid.Column="1"   Grid.Row="3"   Height="20" Background="Transparent"   BorderBrush="Black" BorderThickness="0,0,0,1" />
+        <Label Content="Teléfono*" Grid.Column="0" Name="label_telefono"  Grid.Row="4" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" />
+        <TextBox x:Name="box_telefono" MouseEnter="box_telefono_MouseEnter" FontSize="16"  Grid.Column="1"  Grid.Row="4"   Height="20" Background="Transparent"   BorderBrush="Black" BorderThickness="0,0,0,1"  />
+        <Label Content="Fecha de nacimiento" Grid.Column="0" Name="label_fecha"  Grid.Row="5" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" />
+        <DatePicker MouseEnter="fecha_nacimiento_MouseEnter" Grid.Column="1"  Grid.Row="5" VerticalAlignment="Center" FontSize="18" Foreground="Black" Margin="0,5" Name="fecha_nacimiento" Background="Gray"/>
+        <Label Content="DNI*" Grid.Column="0" Name="label_dni" Grid.Row="6" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" />
+        <TextBox x:Name="box_dni" MouseEnter="box_dni_MouseEnter" FontSize="16"  Grid.Column="1" Grid.Row="6"   Height="20" Background="Transparent"   BorderBrush="Black" BorderThickness="0,0,0,1"   />
+        <Grid Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" BorderBrush="Black" BorderThickness="2" Width="100" Height="60" HorizontalAlignment="Center" Click="Button_Cancelar" FontWeight="Black" Background="OrangeRed">CANCELAR</Button>
+            <Button Width="100"   BorderBrush="Black" BorderThickness="2" Grid.Column="1" Height="60"  HorizontalAlignment="Center"  Click="Button_Guardar" FontWeight="Black" Background="Green">GUARDAR</Button>
+        </Grid>
+    </Grid>
+    
+</Window>

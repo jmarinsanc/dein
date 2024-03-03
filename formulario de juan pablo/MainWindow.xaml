@@ -1,0 +1,126 @@
+﻿<Window x:Class="formulario_de_juan_pablo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:formulario_de_juan_pablo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="800" WindowStartupLocation="CenterScreen"
+         >
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Montserrat"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <!-- Otras propiedades comunes que desees aplicar -->
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="LightGray" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*" />
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="91*"/>
+            <RowDefinition Height="78*" />
+            <RowDefinition Height="153*" />
+            <RowDefinition Height="36*" />
+            <RowDefinition Height="63*" />
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="67*"/>
+            <RowDefinition Height="180*"/>
+
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Introducción de Datos de Empleados"  TextAlignment="Center" FontSize="20"/>
+        <ProgressBar Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" x:Name="progressBar" Height="30" VerticalAlignment="Bottom" Margin="0,0,0,10" IsIndeterminate="False" Value="50" Foreground="Brown"/>
+
+
+        <Grid  Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" Margin="15,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" FontSize="18" Content="Adjuntar fotografía" Grid.Column="0" Name="label_foto"/>
+            <Button Grid.Column="1" HorizontalAlignment="Center" Margin="10,0" Content="Cargar foto" Height="50" Width="100"  Click="SeleccionarImagen_Click" />
+            <Image Grid.Column="2" Name="imagenPrevia" Width="100" Height="100" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid  Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" Margin="15,10" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="20*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Domicilio" HorizontalAlignment="Center" FontSize="18" Margin="0,0,20,0" Grid.Row="2" Grid.Column="0" Name="label_domicilio"/>
+            <TextBox x:Name="box_direccion" Grid.Row="0"  Grid.Column="1" Height="20" Text = "Dirección" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_ciudad" Grid.Row="1" Grid.Column="1" Height="20" Text="Ciudad" Margin="0,3,0,3" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_provincia" Grid.Row="2" Grid.Column="1" Height="20" Text="Provincia" Margin="0,3,0,3" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_codigo" Grid.Row="3" Grid.Column="1" Height="20" Text="Código Postal" Margin="0,3,0,3" GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+            <TextBox x:Name="box_pais" Grid.Row="4" Grid.Column="1" Height="20" Text="País" MouseEnter="box_pais_MouseEnter"  Margin="0,3,0,3"  GotFocus="gotFocus" LostFocus="Txt_lostFocus" />
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="20*"/>
+
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" FontSize="18" VerticalAlignment="Center"   HorizontalAlignment="Center" Content="Enlace a red social"  Name="label_social" />
+            <TextBox x:Name="box_redsocial" MouseEnter="box_redsocial_MouseEnter" FontSize="16"  Grid.Row="3" Height="20" Grid.Column="1"/>
+        </Grid>
+
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Margin="15,0">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="20*"/>
+
+            </Grid.ColumnDefinitions>
+            <Label FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Rol actual" Grid.Row="0" Grid.Column="0" Name="label_rol"/>
+            <ComboBox Grid.Column="1" Height="20" x:Name="combo_rol">
+                <ComboBoxItem>Analista</ComboBoxItem>
+                <ComboBoxItem>Desarrollador</ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Grid Grid.Row="5" Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="20*"/>
+
+            </Grid.ColumnDefinitions>
+            <TextBlock  FontSize="18"  VerticalAlignment="Center" HorizontalAlignment="Center" Text="Descripcion del puesto &#x0a; de trabajo actual"  />
+            <TextBox x:Name="textBox_puesto" MouseEnter="textBox_puesto_MouseEnter" FontSize="16" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,2,40,5" AcceptsReturn="True"/>
+        </Grid>
+
+        <Button x:Name="boton_guardar" Grid.Column="1" Grid.Row="6" Content="Guardar" HorizontalAlignment="Center" Width="100" Height="50" BorderBrush="Black" BorderThickness="3"  Background="Green" Click="boton_guardar_Click" />
+        <Button x:Name="boton_cancelar" Grid.Column="0" Grid.Row="6" Content="Atrás" HorizontalAlignment="Center" Width="100" Height="50" BorderBrush="Black" BorderThickness="3" Background="OrangeRed" Click="boton_cancelar_Click"/>
+        <DataGrid x:Name="datagrid" Grid.Row="7" Grid.ColumnSpan="2" ItemsSource="{Binding}"  AutoGenerateColumns="False" Margin="20,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Width="10*" Binding="{Binding nombre}"/>
+                <DataGridTextColumn Header="Apellidos" Width="40*" Binding="{Binding apellidos}"/>
+                <DataGridTextColumn Header="Email" Width="20*" Binding="{Binding email}"/>
+                <DataGridTextColumn Header="Teléfono" Width="10*" Binding="{Binding telefono}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
+    </Grid>
+
+
+</Window>

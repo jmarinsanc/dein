@@ -1,0 +1,48 @@
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\bin\Release\formulario de juan pablo.exe.config
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\bin\Release\formulario de juan pablo.exe
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\bin\Release\formulario de juan pablo.pdb
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.AssemblyReference.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\App.g.cs
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.lref
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\MainWindow.baml
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.g.resources
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario_de_juan_pablo.Properties.Resources.resources
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.GenerateResource.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.exe
+C:\Users\alumTA\Desktop\dein\formulario de juan pablo\obj\Release\formulario de juan pablo.pdb
+D:\desarrollo de interfaces\formulario de juan pablo\bin\Release\formulario de juan pablo.exe.config
+D:\desarrollo de interfaces\formulario de juan pablo\bin\Release\formulario de juan pablo.exe
+D:\desarrollo de interfaces\formulario de juan pablo\bin\Release\formulario de juan pablo.pdb
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.AssemblyReference.cache
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\MainWindow.g.cs
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\App.g.cs
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.cache
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.lref
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\MainWindow.baml
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.g.resources
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario_de_juan_pablo.Properties.Resources.resources
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.GenerateResource.cache
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.CoreCompileInputs.cache
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.exe
+D:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.pdb
+E:\desarrollo de interfaces\formulario de juan pablo\bin\Release\formulario de juan pablo.exe.config
+E:\desarrollo de interfaces\formulario de juan pablo\bin\Release\formulario de juan pablo.exe
+E:\desarrollo de interfaces\formulario de juan pablo\bin\Release\formulario de juan pablo.pdb
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.AssemblyReference.cache
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\MainWindow.g.cs
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\App.g.cs
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.cache
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo_MarkupCompile.lref
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\MainWindow.baml
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.g.resources
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario_de_juan_pablo.Properties.Resources.resources
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.GenerateResource.cache
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.csproj.CoreCompileInputs.cache
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.exe
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\formulario de juan pablo.pdb
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\App.baml
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\primera.g.cs
+E:\desarrollo de interfaces\formulario de juan pablo\obj\Release\primera.baml
